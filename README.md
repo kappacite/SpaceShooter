@@ -1,3 +1,3 @@
-"#ReadMe" 
-Etape 1: Premier jour du projet, theme-> Space shooter (en horizontale) avec de l'annimation, des environnements varies 
-Etape 2: Deuxieme Jour, debut du projet, deplacement (zqsd ou fleches) et tir a la souris , image en background, annimation et slice des differetns sprites 
+#ReadMe
+Étape 1 : Premier jour du projet, thème → Space Shooter (en horizontal) avec de l'animation et des environnements variés.
+Étape 2 : Deuxième jour, début du projet : déplacements (ZQSD ou flèches) et tirs à la souris, image en background, animation et slicing des différents sprites.
