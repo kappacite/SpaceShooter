@@ -11,10 +11,12 @@ public class PlayerMovement : MonoBehaviour
     public float verticalMovement;
     public bool buttonPressed;
     Rigidbody2D rb;
-    float speed = 4f;
+    float speed = 2f;
+    public Animator animator;
    
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
+        animator = gameObject.GetComponentInChildren<Animator>();
     }
 
     // Start is called before the first frame update
@@ -26,9 +28,11 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context) {
         buttonPressed = context.performed;
         if (buttonPressed) {
-
             horizontalMovement = Keyboard.current.dKey.isPressed ? 1 : (Keyboard.current.aKey.isPressed ? -1 : 0);
             verticalMovement = Keyboard.current.wKey.isPressed ? 1 : (Keyboard.current.sKey.isPressed ? -1 : 0);
+            animator.SetTrigger("IsPowering");
+        } else {
+            animator.ResetTrigger("IsPowering");
         }
     }
 
@@ -44,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
     {
         FaceMouse();
         UpdateAcceleration();
-        rb.velocity = new Vector2(horizontalMovement * speed * currentAcceleration, verticalMovement * speed * currentAcceleration);
+        rb.velocity = new Vector2(horizontalMovement, verticalMovement).normalized * speed * currentAcceleration;
         
     }
 
