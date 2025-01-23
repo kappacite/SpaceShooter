@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody2D rb;
     float speed = 2f;
     public Animator animator;
+
+    private Vector3 _mousePosition;
    
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
@@ -22,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        _mousePosition = Input.mousePosition;
     }
 
     public void Move(InputAction.CallbackContext context) {
@@ -37,8 +39,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FaceMouse() {
+        _mousePosition = Input.mousePosition;
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
         Vector2 direction = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
         transform.up = direction;
     }
@@ -46,7 +48,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        FaceMouse();
+        if (Input.mousePosition != _mousePosition)
+        {
+            FaceMouse();
+        }
         UpdateAcceleration();
         rb.velocity = new Vector2(horizontalMovement, verticalMovement).normalized * speed * currentAcceleration;
         
