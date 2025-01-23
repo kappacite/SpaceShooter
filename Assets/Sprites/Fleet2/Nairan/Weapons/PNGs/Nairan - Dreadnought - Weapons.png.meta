@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f17eafa8f8a1b47a7fc02d1f7dff9c
+      internalID: -1656940050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a43278f39f5c0e44ab0bfbc13c27298
+      internalID: -1791329587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c91e45f8fa0f94a967c62f0e1db283
+      internalID: -1026125519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b10139e23807c44281499751c507579
+      internalID: -1915252660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc18f91f714a2044ac31259bd3871b9
+      internalID: -425663904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 14
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2539363a73d314e916fa27aa4297d0
+      internalID: 374693207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878d9028b18d4be498f93a4a704e5340
+      internalID: -851933103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be095fd0c9fac2444883acda2a793ef3
+      internalID: 562396181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaab38efd42a4449b0d3e0d453c08c2
+      internalID: 1710186178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55688a1d8d0bdf4992a8561ba47d3f2
+      internalID: 338183858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b8c14e95f13814a838acde2edae65f
+      internalID: -1808794666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 14
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c6410c6c4d614abf2795b49966b99
+      internalID: -1615491356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa6387ef5bc3644ab52672c8800e245
+      internalID: -1067749939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97749720f3074234fa524f7e7d2b4064
+      internalID: -643443698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d7e3d1ec0aeb4791bf72f02f166ae
+      internalID: -144037270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7069d7c1d379e564f80555d1e9edce45
+      internalID: 282693811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9ee46d8e1779048b38bbf6bfd26999
+      internalID: 1182991750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e5696d505e0474e8753c6680955a59
+      internalID: 1337181111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e7bf99006621d4ca0c12b6a991ade7
+      internalID: 1274267403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8e0bd6cc28b4843836670998576029
+      internalID: 240707479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff85bffff50221e4183cc85d0f47c73f
+      internalID: 218741225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af3dce253c3ac14f8737c91b1998184
+      internalID: 237121620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 14
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c1494b9835fe4c8145c8c04ed5f8a
+      internalID: 1041472300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d69df3497183724595b1967e7b79e7a
+      internalID: -1884107842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2263e96065ffed4bb08b04c86ffcafe
+      internalID: -1793858512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deedfaae8d357343ac2f31afa84d898
+      internalID: 21315091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90ac8b7deb6a2946b3f2a98e61135f3
+      internalID: 1049744098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea69c8323cfd51428ce729490506768
+      internalID: 197271937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 14
+        width: 73
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf5713b3bfdf4f4f86bb45dbb0f4f94
+      internalID: 1459484221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_29
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013375352f7fd941a5f76aa2db12cd7
+      internalID: 1712780198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 14
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d45fc9f0500bad469249509999eba5d
+      internalID: -107587399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b535f0a6b118f49bbcf860ca1f0ece
+      internalID: -1304193260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35b39c07bb54f345bf65f19ebf997d1
+      internalID: -1297986150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Dreadnought - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 4251
+        y: 14
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c91b352b560cd438fec13033c4e345
+      internalID: 1186283386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +833,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Dreadnought - Weapons_0: -1656940050
+      Nairan - Dreadnought - Weapons_1: -1791329587
+      Nairan - Dreadnought - Weapons_10: -1808794666
+      Nairan - Dreadnought - Weapons_11: -1615491356
+      Nairan - Dreadnought - Weapons_12: -1067749939
+      Nairan - Dreadnought - Weapons_13: -643443698
+      Nairan - Dreadnought - Weapons_14: -144037270
+      Nairan - Dreadnought - Weapons_15: 282693811
+      Nairan - Dreadnought - Weapons_16: 1182991750
+      Nairan - Dreadnought - Weapons_17: 1337181111
+      Nairan - Dreadnought - Weapons_18: 1274267403
+      Nairan - Dreadnought - Weapons_19: 240707479
+      Nairan - Dreadnought - Weapons_2: -1026125519
+      Nairan - Dreadnought - Weapons_20: 218741225
+      Nairan - Dreadnought - Weapons_21: 237121620
+      Nairan - Dreadnought - Weapons_22: 1041472300
+      Nairan - Dreadnought - Weapons_23: -1884107842
+      Nairan - Dreadnought - Weapons_24: -1793858512
+      Nairan - Dreadnought - Weapons_25: 21315091
+      Nairan - Dreadnought - Weapons_26: 1049744098
+      Nairan - Dreadnought - Weapons_27: 197271937
+      Nairan - Dreadnought - Weapons_28: 1459484221
+      Nairan - Dreadnought - Weapons_29: 1712780198
+      Nairan - Dreadnought - Weapons_3: -1915252660
+      Nairan - Dreadnought - Weapons_30: -107587399
+      Nairan - Dreadnought - Weapons_31: -1304193260
+      Nairan - Dreadnought - Weapons_32: -1297986150
+      Nairan - Dreadnought - Weapons_33: 1186283386
+      Nairan - Dreadnought - Weapons_4: -425663904
+      Nairan - Dreadnought - Weapons_5: 374693207
+      Nairan - Dreadnought - Weapons_6: -851933103
+      Nairan - Dreadnought - Weapons_7: 562396181
+      Nairan - Dreadnought - Weapons_8: 1710186178
+      Nairan - Dreadnought - Weapons_9: 338183858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
