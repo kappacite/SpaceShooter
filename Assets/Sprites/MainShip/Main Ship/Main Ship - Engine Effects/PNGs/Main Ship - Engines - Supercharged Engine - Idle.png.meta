@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 26d41681aafb6894bb22e4e49fb3def1
+=======
 guid: c34f901d1b05ea248847f3796e242289
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +47,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   spriteMode: 2
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,6 +116,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - serializedVersion: 2
       name: Main Ship - Engines - Supercharged Engine - Idle_0
@@ -193,6 +204,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
     outline: []
     physicsShape: []
     bones: []
@@ -203,11 +215,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Main Ship - Engines - Supercharged Engine - Idle_0: -867207180
       Main Ship - Engines - Supercharged Engine - Idle_1: -301460363
       Main Ship - Engines - Supercharged Engine - Idle_2: -46589093
       Main Ship - Engines - Supercharged Engine - Idle_3: 1493792750
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

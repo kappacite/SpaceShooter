@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: c3a3a44c661d76a40a21833c40da0518
+=======
 guid: 2f831c87e5d38b44d9448498d483e120
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +47,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   spriteMode: 2
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,6 +116,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - serializedVersion: 2
       name: Main Ship - Shields - Invincibility Shield_0
@@ -319,6 +330,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
     outline: []
     physicsShape: []
     bones: []
@@ -329,6 +341,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Main Ship - Shields - Invincibility Shield_0: -1475850901
       Main Ship - Shields - Invincibility Shield_1: 2052088770
@@ -340,6 +355,7 @@ TextureImporter:
       Main Ship - Shields - Invincibility Shield_7: 883085168
       Main Ship - Shields - Invincibility Shield_8: -831883388
       Main Ship - Shields - Invincibility Shield_9: 1605537338
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

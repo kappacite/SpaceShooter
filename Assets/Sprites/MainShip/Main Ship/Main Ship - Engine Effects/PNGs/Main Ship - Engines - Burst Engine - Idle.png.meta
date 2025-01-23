@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 88900a6ffefd1154785b379986ea000e
+=======
 guid: 740d2d8cab63e9b40895b19604cead95
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +47,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   spriteMode: 2
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,6 +116,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - serializedVersion: 2
       name: Main Ship - Engines - Burst Engine - Idle_0
@@ -256,6 +267,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
     outline: []
     physicsShape: []
     bones: []
@@ -266,6 +278,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Main Ship - Engines - Burst Engine - Idle_0: 199785037
       Main Ship - Engines - Burst Engine - Idle_1: 879881207
@@ -274,6 +289,7 @@ TextureImporter:
       Main Ship - Engines - Burst Engine - Idle_4: -959157530
       Main Ship - Engines - Burst Engine - Idle_5: 282707468
       Main Ship - Engines - Burst Engine - Idle_6: 1005364378
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

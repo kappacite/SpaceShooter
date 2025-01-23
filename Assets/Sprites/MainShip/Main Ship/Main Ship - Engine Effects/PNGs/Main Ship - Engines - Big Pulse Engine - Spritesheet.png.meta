@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 978803a08b447474ea2adacf790afa7c
+=======
 guid: 0c7525deca0cbeb458bf3601ea7f867f
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +47,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   spriteMode: 2
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,6 +116,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
+    sprites: []
+=======
     sprites:
     - serializedVersion: 2
       name: Main Ship - Engines - Big Pulse Engine - Spritesheet_0
@@ -277,6 +288,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
     outline: []
     physicsShape: []
     bones: []
@@ -287,6 +299,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
     nameFileIdTable:
       Main Ship - Engines - Big Pulse Engine - Spritesheet_0: -1922280163
       Main Ship - Engines - Big Pulse Engine - Spritesheet_1: 600103534
@@ -296,6 +311,7 @@ TextureImporter:
       Main Ship - Engines - Big Pulse Engine - Spritesheet_5: -990092211
       Main Ship - Engines - Big Pulse Engine - Spritesheet_6: -1499934060
       Main Ship - Engines - Big Pulse Engine - Spritesheet_7: 1421831041
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
