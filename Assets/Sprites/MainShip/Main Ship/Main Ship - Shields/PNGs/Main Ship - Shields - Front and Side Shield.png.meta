@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e7c356db706c48bd060a08cc3282d
+      internalID: -57839260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed304e6f5e73af4b84f2fa6f3e7cb92
+      internalID: -1395451307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c8e0882ede12845b76cfb6a27a3328
+      internalID: -1565649443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78abe5149264a9d47ab1fcef10020964
+      internalID: 1584081672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2698674c0b4b8de4b886e60e7d89b490
+      internalID: -1759628318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front and Side Shield_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 19
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051d2c61dd56ab34ba2b2d81ecb71f2b
+      internalID: 438902420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Shields - Front and Side Shield_0: -57839260
+      Main Ship - Shields - Front and Side Shield_1: -1395451307
+      Main Ship - Shields - Front and Side Shield_2: -1565649443
+      Main Ship - Shields - Front and Side Shield_3: 1584081672
+      Main Ship - Shields - Front and Side Shield_4: -1759628318
+      Main Ship - Shields - Front and Side Shield_5: 438902420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
