@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3030f24b744e1f440b01282c77aedbfe
 ScriptedImporter:
   internalIDToNameTable: []
@@ -178,3 +179,11 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 96}
+=======
+guid: 8e1c804146db074409f4a50e1cdb3d3c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> 5b32923ff7554ab0f8a0a8047332a2fd28ac9769
