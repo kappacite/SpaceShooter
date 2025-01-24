@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   price: 0
   name: 
-  sprite: {fileID: 0}
-  animatorController: {fileID: 0}
+  sprite: {fileID: 21300000, guid: a7ccab6f11a3dc74c9e2198c8788edd0, type: 3}
+  animatorController: {fileID: 9100000, guid: 0632b2a6d2a83e24e8388d7780f04316, type: 2}
