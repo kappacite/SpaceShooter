@@ -298,7 +298,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: a7ccab6f11a3dc74c9e2198c8788edd0, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -306,7 +306,7 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.48}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &686306476
@@ -526,7 +526,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 869875648, guid: 53f427e34d8f3ed4fb5c4740d9ad637e, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -534,7 +534,7 @@ SpriteRenderer:
   m_Size: {x: 0.24, y: 0.22}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &731732197
@@ -547,7 +547,7 @@ Animator:
   m_GameObject: {fileID: 731732194}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 894f608aaa9d95c4aa4f0f0876c7573a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -572,6 +572,7 @@ GameObject:
   - component: {fileID: 798533289}
   - component: {fileID: 798533293}
   - component: {fileID: 798533294}
+  - component: {fileID: 798533295}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -799,6 +800,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ce63473892c544f9951a6602ee9e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &798533295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 798533288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bddc8f8ba41bb2c459596e6560576835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  engine: {fileID: 0}
+  weapon: {fileID: 0}
+  engineData: {fileID: 11400000, guid: f272e2a23ebd3aa4bbc4f3451c3f1ba9, type: 2}
+  weaponData: {fileID: 11400000, guid: 83a1f5d8c65d89448aba1587828c3949, type: 2}
 --- !u!1 &902321722
 GameObject:
   m_ObjectHideFlags: 0
@@ -894,7 +911,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1785414427, guid: 8833ceb4fe2a30e428467a71953baa22, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -902,7 +919,7 @@ SpriteRenderer:
   m_Size: {x: 0.2, y: 0.05}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1175979012
