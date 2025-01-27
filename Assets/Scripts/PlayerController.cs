@@ -17,6 +17,14 @@ public class PlayerController : MonoBehaviour
     public ModuleData engineData;
     public ModuleData weaponData;
     // Start is called before the first frame update
+
+    public Sprite clean;
+    public Sprite slightDamaged;
+    public Sprite damaged;
+    public Sprite veryDamaged;
+
+    public List<Sprite> sprites;
+    public int i = 0;
     void Start()
     {
 
@@ -29,12 +37,17 @@ public class PlayerController : MonoBehaviour
         weapon.GetComponent<Animator>().runtimeAnimatorController = weaponData.animatorController;
         weapon.GetComponent<SpriteRenderer>().sprite = weaponData.sprite;
 
-
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if(Input.GetKeyDown(KeyCode.H)) {
+            i++;
+            spriteRenderer.sprite = sprites[i%sprites.Count];
+            
+        }
     }
 }

@@ -9,4 +9,7 @@ public class ModuleData : ScriptableObject
     public string name;
     public Sprite sprite;
     public RuntimeAnimatorController animatorController;
+    public float waitingTime;
+    public float offsetX;
+    public float offsetY;
 }
