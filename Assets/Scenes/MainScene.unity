@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 902321725}
   - component: {fileID: 902321724}
   m_Layer: 0
-  m_Name: EngineEffect
+  m_Name: EngineReactor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
