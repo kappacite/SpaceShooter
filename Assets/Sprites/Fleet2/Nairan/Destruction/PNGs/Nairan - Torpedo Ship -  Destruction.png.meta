@@ -108,7 +108,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 17
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42397742eed521441b52e4aa8f7faf50
+      internalID: -292384993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 17
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18abde9e11ba0c743821fa299cab8bde
+      internalID: 1520270954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 17
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba94ea13e16159348a927929b25d039b
+      internalID: -1465032454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 13
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7397cbe3e33d62a4382428d4a0e1c4f8
+      internalID: 1757200704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8cafafa81228a4eab80e67227d6af9
+      internalID: -1531298700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0fb648d3bf9947bad91f3fde0883d
+      internalID: -308693883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32437a081113d034eb5a2899232bab1a
+      internalID: 2133609042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_7
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c66713e4febe924380043f89016c133
+      internalID: 1487767640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d71060d1a22a0449426e563e34d5e8
+      internalID: -188858844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_9
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 8
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9b372658ba1aa49be4e331801afd7c
+      internalID: 1952214292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 13
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c7795ce4d21734eb437d57acc84733
+      internalID: -1753202896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 18
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5aa75dc338b4479f4b1f844f8b4e9
+      internalID: 63197290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 23
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2498030646331c247aabc81c6f153894
+      internalID: -1832426501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_13
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 26
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9698e839fd261845812ad36638dad59
+      internalID: 958400050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac70aa91bcb46f4793e2ebe977e91c2
+      internalID: -415485528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nairan - Torpedo Ship -  Destruction_15
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 24
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924635b97b89d247a2a79ff8c7034de
+      internalID: 1898321450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +455,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nairan - Torpedo Ship -  Destruction_0: -292384993
+      Nairan - Torpedo Ship -  Destruction_1: 1520270954
+      Nairan - Torpedo Ship -  Destruction_10: -1753202896
+      Nairan - Torpedo Ship -  Destruction_11: 63197290
+      Nairan - Torpedo Ship -  Destruction_12: -1832426501
+      Nairan - Torpedo Ship -  Destruction_13: 958400050
+      Nairan - Torpedo Ship -  Destruction_14: -415485528
+      Nairan - Torpedo Ship -  Destruction_15: 1898321450
+      Nairan - Torpedo Ship -  Destruction_2: -1465032454
+      Nairan - Torpedo Ship -  Destruction_3: 1757200704
+      Nairan - Torpedo Ship -  Destruction_4: -1531298700
+      Nairan - Torpedo Ship -  Destruction_5: -308693883
+      Nairan - Torpedo Ship -  Destruction_6: 2133609042
+      Nairan - Torpedo Ship -  Destruction_7: 1487767640
+      Nairan - Torpedo Ship -  Destruction_8: -188858844
+      Nairan - Torpedo Ship -  Destruction_9: 1952214292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

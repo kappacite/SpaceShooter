@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ad54f27153dfc43bac4653bb379c5a
+      internalID: 1873316037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceefaa5306b0f24997b034e8a45f446
+      internalID: -908526356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786eae3442b798f4c8135e92c2486fa0
+      internalID: -2104754721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7980e7cac756740a5e2895e74d5982
+      internalID: -1320172718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4d724df3c6d3d47b2f85e30626f553
+      internalID: 103409843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235ba30f3bd45274ca368c57f3f14269
+      internalID: 1299074186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3707fd50e3a5e5d4883ea2d6552094a5
+      internalID: 195352428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c6716ab94a8ed4ebb33c6813e16dc5
+      internalID: -1183892859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e0628cd70f61546bb3fab0c48a4413
+      internalID: -1669167613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Main Ship - Shields - Front Shield_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 35
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192156b3744b49742aaafb706d9a16e1
+      internalID: -883344794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +329,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main Ship - Shields - Front Shield_0: 1873316037
+      Main Ship - Shields - Front Shield_1: -908526356
+      Main Ship - Shields - Front Shield_2: -2104754721
+      Main Ship - Shields - Front Shield_3: -1320172718
+      Main Ship - Shields - Front Shield_4: 103409843
+      Main Ship - Shields - Front Shield_5: 1299074186
+      Main Ship - Shields - Front Shield_6: 195352428
+      Main Ship - Shields - Front Shield_7: -1183892859
+      Main Ship - Shields - Front Shield_8: -1669167613
+      Main Ship - Shields - Front Shield_9: -883344794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
