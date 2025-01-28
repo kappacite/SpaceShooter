@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Weapon
   - Engine
+  - Shield
   layers:
   - Default
   - TransparentFX
