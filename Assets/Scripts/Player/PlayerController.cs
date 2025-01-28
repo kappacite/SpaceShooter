@@ -7,17 +7,19 @@ public class PlayerController : MonoBehaviour
 
     private float _health;
     private float _maxHealth = 100;
-    private float _shield = 0;
-    private float _maxShield;
+    private float _shield = 5;
+    private float _maxShield = 5;
     private float _gold;
 
     private SpriteRenderer _renderer;
 
     public GameObject engine;
     public GameObject weapon;
+    public GameObject shield;
 
     public ModuleData engineData;
     public ModuleData weaponData;
+    public ModuleData shieldData;
     // Start is called before the first frame update
 
     public List<Sprite> sprites;
@@ -30,12 +32,20 @@ public class PlayerController : MonoBehaviour
 
         engine = GameObject.FindGameObjectWithTag("Engine");
         weapon = GameObject.FindGameObjectWithTag("Weapon");
+        shield = GameObject.FindGameObjectWithTag("Shield");
 
         engine.GetComponentInChildren<Animator>().runtimeAnimatorController = engineData.animatorController;
         engine.GetComponent<SpriteRenderer>().sprite = engineData.sprite;
+        engine.transform.position += new Vector3(engineData.offsetX, 0,0);
+        engine.transform.position += new Vector3(0, engineData.offsetY,0);
 
         weapon.GetComponent<Animator>().runtimeAnimatorController = weaponData.animatorController;
         weapon.GetComponent<SpriteRenderer>().sprite = weaponData.sprite;
+        weapon.transform.position += new Vector3(weaponData.offsetX,0,0);
+        weapon.transform.position += new Vector3(0,weaponData.offsetY,0);
+
+        shield.transform.position += new Vector3(shieldData.offsetX,0);
+        shield.transform.position += new Vector3(0,shieldData.offsetY,0);
 
     }
 
@@ -53,8 +63,6 @@ public class PlayerController : MonoBehaviour
 
     private void UpdatePlayer() {
 
-
-
         if (this._health > 75) {
             this._renderer.sprite = sprites[0];
         }
@@ -66,6 +74,11 @@ public class PlayerController : MonoBehaviour
         }
         else if (this._health > 0) {
             this._renderer.sprite = sprites[3];
+        }
+
+        if(_shield > 0) {
+            shield.GetComponent<Animator>().runtimeAnimatorController = shieldData.animatorController;
+            shield.GetComponent<SpriteRenderer>().sprite = shieldData.sprite;
         }
 
 

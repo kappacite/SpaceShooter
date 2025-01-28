@@ -17,8 +17,6 @@ public class PlayerWeapon : MonoBehaviour
         playerController = GetComponentInParent<PlayerController>();
     }
 
-
-
     void Update()
     {
 
@@ -28,12 +26,6 @@ public class PlayerWeapon : MonoBehaviour
             lastTriggeredTime = Time.time;
             _animator.SetTrigger("IsShooting");
         }
-
-        /*if (Input.GetMouseButtonUp(0)) {
-            Debug.Log("Relacher");
-            isHolding = false;
-            _animator.ResetTrigger("IsShooting");*/
         
-
     }
 }
