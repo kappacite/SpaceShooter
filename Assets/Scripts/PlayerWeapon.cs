@@ -33,7 +33,10 @@ public class PlayerWeapon : MonoBehaviour
             Debug.Log("Relacher");
             isHolding = false;
             _animator.ResetTrigger("IsShooting");*/
+            
+
         
 
     }
+    
 }
