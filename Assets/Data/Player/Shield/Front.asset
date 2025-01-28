@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39ad0d02abdfbd4482ffc08500cb420, type: 3}
+  m_Name: Front
+  m_EditorClassIdentifier: 
+  price: 0
+  name: 
+  sprite: {fileID: 1873316037, guid: 26825204e636f6f4da7d442eaeda6c89, type: 3}
+  animatorController: {fileID: 9100000, guid: 0b23c13a484f68c4f92ac47ec3381547, type: 2}
+  waitingTime: 0
+  offsetX: 0
+  offsetY: 0.2
