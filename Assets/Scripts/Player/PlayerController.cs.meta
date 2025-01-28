@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bddc8f8ba41bb2c459596e6560576835
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - engine: {instanceID: 0}
+  - weapon: {instanceID: 0}
+  - engineData: {instanceID: 0}
+  - weaponData: {instanceID: 0}
+  - clean: {fileID: 21300000, guid: a382e6f265fdee64d8608103faac04c5, type: 3}
+  - slightDamaged: {instanceID: 0}
+  - damaged: {instanceID: 0}
+  - veryDamaged: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

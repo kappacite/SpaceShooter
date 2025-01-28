@@ -848,16 +848,11 @@ MonoBehaviour:
   weapon: {fileID: 0}
   engineData: {fileID: 11400000, guid: f272e2a23ebd3aa4bbc4f3451c3f1ba9, type: 2}
   weaponData: {fileID: 11400000, guid: 83a1f5d8c65d89448aba1587828c3949, type: 2}
-  clean: {fileID: 21300000, guid: a382e6f265fdee64d8608103faac04c5, type: 3}
-  slightDamaged: {fileID: 21300000, guid: 715e682dc044bcf449863425173e778e, type: 3}
-  damaged: {fileID: 21300000, guid: 657d5bc93a4ccaa41befae32d6ccf752, type: 3}
-  veryDamaged: {fileID: 21300000, guid: 13745a17b14ce4f469ad3af2d2b98ef7, type: 3}
   sprites:
   - {fileID: 21300000, guid: a382e6f265fdee64d8608103faac04c5, type: 3}
   - {fileID: 21300000, guid: 715e682dc044bcf449863425173e778e, type: 3}
   - {fileID: 21300000, guid: 657d5bc93a4ccaa41befae32d6ccf752, type: 3}
   - {fileID: 21300000, guid: 13745a17b14ce4f469ad3af2d2b98ef7, type: 3}
-  i: 0
 --- !u!1 &902321722
 GameObject:
   m_ObjectHideFlags: 0
