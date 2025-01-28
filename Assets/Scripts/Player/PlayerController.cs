@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     public GameObject shield;
 
     public ModuleData engineData;
-    public ModuleData weaponData;
+    public WeaponData weaponData;
     public ModuleData shieldData;
     // Start is called before the first frame update
 
@@ -39,10 +39,10 @@ public class PlayerController : MonoBehaviour
         engine.transform.position += new Vector3(engineData.offsetX, 0,0);
         engine.transform.position += new Vector3(0, engineData.offsetY,0);
 
-        weapon.GetComponent<Animator>().runtimeAnimatorController = weaponData.animatorController;
-        weapon.GetComponent<SpriteRenderer>().sprite = weaponData.sprite;
-        weapon.transform.position += new Vector3(weaponData.offsetX,0,0);
-        weapon.transform.position += new Vector3(0,weaponData.offsetY,0);
+        weapon.GetComponent<Animator>().runtimeAnimatorController = weaponData.moduleData.animatorController;
+        weapon.GetComponent<SpriteRenderer>().sprite = weaponData.moduleData.sprite;
+        weapon.transform.position += new Vector3(weaponData.moduleData.offsetX,0,0);
+        weapon.transform.position += new Vector3(0,weaponData.moduleData.offsetY,0);
 
         shield.transform.position += new Vector3(shieldData.offsetX,0);
         shield.transform.position += new Vector3(0,shieldData.offsetY,0);

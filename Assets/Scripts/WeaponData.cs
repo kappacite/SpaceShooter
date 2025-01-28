@@ -6,6 +6,10 @@ using UnityEngine;
 public class WeaponData : ScriptableObject
 {
     public GameObject munitionPrefabs;
-    public List<int[]> canonsLocations;
+    public ModuleData moduleData;
     public int baseDamage;
+    public float ammoSpeed;
+    public string firstCannon;
+    public string secondCannon;
+    public bool secondCannonShooting;
 }
