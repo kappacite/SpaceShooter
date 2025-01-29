@@ -20,3 +20,4 @@ MonoBehaviour:
   - Zapper1
   - Zapper2
   timeBetweenShoot: 0
+  sound: {fileID: 8300000, guid: 0221c823cc8a08647b8e8f75d1e7c075, type: 3}
