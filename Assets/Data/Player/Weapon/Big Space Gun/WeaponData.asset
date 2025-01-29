@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39ad0d02abdfbd4482ffc08500cb420, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: 
+  price: 0
+  name: 
+  sprite: {fileID: 1005298264, guid: d6e4d53ec49df4746b765a8cf4f60439, type: 3}
+  animatorController: {fileID: 9100000, guid: d69292ed8425347419dc778e1e13e632, type: 2}
+  waitingTime: 0
+  offsetX: 0
+  offsetY: 0

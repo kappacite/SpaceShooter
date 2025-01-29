@@ -10,7 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 03ade9a0b9848e0489de5399caeca04e, type: 3}
-  m_Name: Zapper
+  m_Name: Rockets
   m_EditorClassIdentifier: 
-  munitionPrefabs: {fileID: 4056923599516728392, guid: 2bc3aeabff54e8547aab93eae045e4d9, type: 3}
+  munitionPrefabs: {fileID: 4056923599516728392, guid: 43e89848fc2487b47bc303cd079a115e, type: 3}
+  moduleData: {fileID: 11400000, guid: 32c9d622581c4ab42b22104bc0c5f8cb, type: 2}
   baseDamage: 10
+  ammoSpeed: 4
+  cannons:
+  - Rockets1
+  - Rockets2
+  - Rockets3
+  - Rockets4
+  - Rockets5
+  - Rockets6
+  timeBetweenShoot: 0.16
