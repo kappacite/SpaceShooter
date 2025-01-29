@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 
     private float _health;
     private float _maxHealth = 100;
-    private float _shield = 5;
+    private float _shield = 0;
     private float _maxShield = 5;
     private float _gold;
 

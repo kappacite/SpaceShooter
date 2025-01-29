@@ -9,7 +9,6 @@ public class WeaponData : ScriptableObject
     public ModuleData moduleData;
     public int baseDamage;
     public float ammoSpeed;
-    public string firstCannon;
-    public string secondCannon;
-    public bool secondCannonShooting;
+    public List<string> cannons;
+    public float timeBetweenShoot;
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7809204824977377025}
   - component: {fileID: 2606416221787878853}
   m_Layer: 0
-  m_Name: Munition
+  m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ Animator:
   m_GameObject: {fileID: 4056923599516728392}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4974132f5ca128d479b2eb466e8a39c1, type: 2}
+  m_Controller: {fileID: 9100000, guid: f5e9564a700e22a47bc0cccaef673467, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -97,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 264747337, guid: a7756d1a97197fa4b8552455409143e8, type: 3}
+  m_Sprite: {fileID: -1321300998, guid: 71aad6e576849ce4cb63e3556f8920f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +123,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -137,21 +137,21 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.06, y: 0.32}
+    oldSize: {x: 0.1, y: 0.17}
     newSize: {x: 0.06, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.06, y: 0.32}
+  m_Size: {x: 0.1, y: 0.17}
   m_EdgeRadius: 0
 --- !u!50 &2606416221787878853
 Rigidbody2D:

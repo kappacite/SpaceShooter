@@ -7,7 +7,7 @@ public class PlayerWeapon : MonoBehaviour
 
     private PlayerController playerController;
 
-    private float lastTriggeredTime;
+    private float lastTriggeredTime = 0;
     private float shootLength = 1.2f;
     private Animator _animator;
     
@@ -15,8 +15,10 @@ public class PlayerWeapon : MonoBehaviour
 
     void Start()
     {
+        
         _animator = GameObject.FindGameObjectWithTag("Weapon").GetComponent<Animator>();
         playerController = GetComponentInParent<PlayerController>();
+        lastTriggeredTime = -playerController.weaponData.moduleData.waitingTime;
     }
 
     void Update()
@@ -29,12 +31,8 @@ public class PlayerWeapon : MonoBehaviour
             Debug.Log("Appuyer");
             lastTriggeredTime = Time.time;
             _animator.SetTrigger("IsShooting");
-            GameObject firstCannon = GameObject.Find(playerController.weaponData.firstCannon);
-            Shoot(firstCannon);
-            if (playerController.weaponData.secondCannonShooting) {
-                GameObject secondCannon = GameObject.Find(playerController.weaponData.secondCannon);
-                Shoot(secondCannon);
-            }
+            StartCoroutine(ShootAll(playerController.weaponData.timeBetweenShoot));
+
         }
         
     }
@@ -52,5 +50,14 @@ public class PlayerWeapon : MonoBehaviour
     private IEnumerator DestroyAmmo(GameObject ammo) {
         yield return new WaitForSeconds(3);
         Destroy(ammo);
+    }
+
+    private IEnumerator ShootAll(float delay) {
+        foreach (string cannon in playerController.weaponData.cannons) {
+            GameObject cannonObject = GameObject.Find(cannon);
+            Shoot(cannonObject);
+            yield return new WaitForSeconds(delay);
+        }
+       
     }
 }
