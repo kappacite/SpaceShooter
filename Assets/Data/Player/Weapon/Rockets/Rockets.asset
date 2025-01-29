@@ -16,6 +16,11 @@ MonoBehaviour:
   moduleData: {fileID: 11400000, guid: 32c9d622581c4ab42b22104bc0c5f8cb, type: 2}
   baseDamage: 10
   ammoSpeed: 4
-  firstCannon: Zapper1
-  secondCannon: Zapper2
-  secondCannonShooting: 1
+  cannons:
+  - Rockets1
+  - Rockets2
+  - Rockets3
+  - Rockets4
+  - Rockets5
+  - Rockets6
+  timeBetweenShoot: 0.16

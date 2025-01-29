@@ -16,6 +16,6 @@ MonoBehaviour:
   moduleData: {fileID: 11400000, guid: c68c6fea6e9dab645929cbf56fac00a4, type: 2}
   baseDamage: 10
   ammoSpeed: 4
-  firstCannon: BigGun
-  secondCannon: 
-  secondCannonShooting: 0
+  cannons:
+  - BigGun
+  timeBetweenShoot: 0
