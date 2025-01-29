@@ -11,4 +11,5 @@ public class WeaponData : ScriptableObject
     public float ammoSpeed;
     public List<string> cannons;
     public float timeBetweenShoot;
+    public AudioClip sound;
 }

@@ -44,6 +44,11 @@ public class PlayerWeapon : MonoBehaviour
         munition.transform.position = cannon.transform.position;
         munition.transform.up = direction;
         munition.GetComponent<Rigidbody2D>().velocity = direction.normalized * playerController.weaponData.ammoSpeed;
+        
+        AudioSource source = munition.GetComponent<AudioSource>();
+        source.clip = playerController.weaponData.sound;
+        source.Play();
+        
         StartCoroutine(DestroyAmmo(munition));
     }
 
