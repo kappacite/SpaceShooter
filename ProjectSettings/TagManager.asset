@@ -7,6 +7,7 @@ TagManager:
   - Weapon
   - Engine
   - Shield
+  - Asteroid
   layers:
   - Default
   - TransparentFX
