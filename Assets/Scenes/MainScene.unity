@@ -1139,7 +1139,7 @@ MonoBehaviour:
   weapon: {fileID: 0}
   shield: {fileID: 0}
   engineData: {fileID: 11400000, guid: f272e2a23ebd3aa4bbc4f3451c3f1ba9, type: 2}
-  weaponData: {fileID: 11400000, guid: 7dda926339ada074689e604cf48ac13e, type: 2}
+  weaponData: {fileID: 11400000, guid: a08723d3418bf1245aa3c3985e7ea020, type: 2}
   shieldData: {fileID: 11400000, guid: 1cf3d8b481b55f24e83e36ffc15a9cc8, type: 2}
   sprites:
   - {fileID: 21300000, guid: a382e6f265fdee64d8608103faac04c5, type: 3}
@@ -1367,7 +1367,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d4c663e3114050a438636bc060da7072, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
