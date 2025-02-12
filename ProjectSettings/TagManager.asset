@@ -8,6 +8,7 @@ TagManager:
   - Engine
   - Shield
   - Asteroid
+  - Projectile
   layers:
   - Default
   - TransparentFX

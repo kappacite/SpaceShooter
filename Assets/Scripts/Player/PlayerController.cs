@@ -55,11 +55,37 @@ public class PlayerController : MonoBehaviour
         UpdatePlayer();
     }
 
+    public void LoadShield(ModuleData data) {
+        shield.transform.position += new Vector3(data.offsetX, 0);
+        shield.transform.position += new Vector3(0, data.offsetY, 0);
+    }
+
+    public void LoadWeapon(WeaponData data) {
+        weapon.GetComponent<Animator>().runtimeAnimatorController = data.moduleData.animatorController;
+        weapon.GetComponent<SpriteRenderer>().sprite = data.moduleData.sprite;
+        weapon.transform.position += new Vector3(data.moduleData.offsetX, 0, 0);
+        weapon.transform.position += new Vector3(0, data.moduleData.offsetY, 0);
+    }
+
+    public void LoadEngine(ModuleData data) {
+        engine.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
+        engine.GetComponent<SpriteRenderer>().sprite = data.sprite;
+        engine.transform.position += new Vector3(data.offsetX, 0, 0);
+        engine.transform.position += new Vector3(0, data.offsetY, 0);
+    }
+
+
     public void AddHealth(float health) {
         _health += health;
     }
 
     public void RemoveHealth(float health) { _health -= health; }
+
+    public void AddShield(float shield) {
+        _shield += shield;
+    }
+
+    public void RemoveShield(float shield) { _shield -= shield; }
 
     private void UpdatePlayer() {
 
