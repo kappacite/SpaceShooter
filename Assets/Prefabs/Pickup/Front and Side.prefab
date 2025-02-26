@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5981823941365569228}
   - component: {fileID: 4433367556660044057}
   - component: {fileID: -6007783988871386775}
+  - component: {fileID: -5085317459559476390}
   m_Layer: 0
   m_Name: Front and Side
   m_TagString: Untagged
@@ -165,7 +166,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -180,3 +181,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
+--- !u!114 &-5085317459559476390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499771654454212413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b582a5bcfa674f44db188e741e3baf4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shieldData: {fileID: 11400000, guid: ad756fd793cd46a468b6b4b2e178e89d, type: 2}
+  value: 50

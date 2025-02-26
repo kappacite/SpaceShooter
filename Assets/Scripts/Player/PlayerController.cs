@@ -56,11 +56,16 @@ public class PlayerController : MonoBehaviour
     }
 
     public void LoadShield(ModuleData data) {
-        shield.transform.position += new Vector3(data.offsetX, 0);
-        shield.transform.position += new Vector3(0, data.offsetY, 0);
+        this.shieldData = data;
+        shield.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
+        shield.GetComponent<SpriteRenderer>().sprite = data.sprite;
+        shield.transform.localPosition = new Vector3(data.offsetX, data.offsetY, 0);
+        Debug.Log("X : " + data.offsetX + " Y : " + data.offsetY);
+        Debug.Log(shield.transform.position);
     }
 
     public void LoadWeapon(WeaponData data) {
+        this.weaponData = data;
         weapon.GetComponent<Animator>().runtimeAnimatorController = data.moduleData.animatorController;
         weapon.GetComponent<SpriteRenderer>().sprite = data.moduleData.sprite;
         weapon.transform.position += new Vector3(data.moduleData.offsetX, 0, 0);
@@ -68,6 +73,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public void LoadEngine(ModuleData data) {
+        this.engineData = data;
         engine.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
         engine.GetComponent<SpriteRenderer>().sprite = data.sprite;
         engine.transform.position += new Vector3(data.offsetX, 0, 0);

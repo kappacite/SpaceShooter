@@ -20,8 +20,8 @@ public class PickupBonusDrop : MonoBehaviour
 
         GameObject gameObject = bonuses[Random.Range(0, bonuses.Count)];
         GameObject spawned = Instantiate(gameObject);
-        spawned.transform.position = transform.position;
-        spawned.GetComponent<Rigidbody2D>().velocity = new Vector3(0, -2f, 0);
+        spawned.transform.position = transform.position + new Vector3(0, 0.5f, 0);
+        spawned.GetComponent<Rigidbody2D>().velocity = new Vector3(0, -1.5f, 0);
         Destroy(spawned, 10f);
 
     }
