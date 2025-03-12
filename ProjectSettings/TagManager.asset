@@ -8,6 +8,8 @@ TagManager:
   - Engine
   - Shield
   - Asteroid
+  - Projectile
+  - Pickup
   layers:
   - Default
   - TransparentFX
