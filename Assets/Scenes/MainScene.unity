@@ -402,6 +402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485193050}
   - component: {fileID: 485193049}
+  - component: {fileID: 485193051}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -439,6 +440,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &485193051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485193048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec43ad283e76b4349bc1103fd16625cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+    - {fileID: 11400000, guid: 165b3f40de79ee241b641c88750e7eed, type: 2}
+  enemyPrefab: {fileID: 51048575833429514, guid: e025bddd931025d42ad5b27ebe8437ea, type: 3}
+  currentEnemies: 0
 --- !u!1 &656568343
 GameObject:
   m_ObjectHideFlags: 0

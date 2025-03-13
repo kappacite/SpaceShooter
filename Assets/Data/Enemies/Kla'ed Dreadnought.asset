@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca78a750fce5c81449e84d389c9939a4, type: 3}
+  m_Name: Kla'ed Dreadnought
+  m_EditorClassIdentifier: 
+  controller: {fileID: 9100000, guid: aec2937dc9760d742b36f430b7d8016a, type: 2}
+  life: 0
+  sprite: {fileID: -487606702, guid: 9bd7bc34a05e63f4f8e4c746265d6ace, type: 3}
