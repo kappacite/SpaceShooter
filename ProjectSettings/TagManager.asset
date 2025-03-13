@@ -8,6 +8,8 @@ TagManager:
   - Engine
   - Shield
   - Asteroid
+  - Enemy
+  - Ennemy
   layers:
   - Default
   - TransparentFX

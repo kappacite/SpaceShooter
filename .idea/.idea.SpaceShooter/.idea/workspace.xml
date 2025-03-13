@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ebfd0ca-04ea-4c55-81f4-50cfc5e19bc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Battlecruiser - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Battlecruiser - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Bomber - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Bomber - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Dreadnought - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Dreadnought - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Fighter - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Fighter - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Frigate - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Frigate - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Scout - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Scout - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Support ship - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Support ship - Base.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Torpedo Ship - Base.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Fleet1/Kla'ed/Base/PNGs/Kla'ed - Torpedo Ship - Base.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,27 +20,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sw2kccnE9L7GrvBA9XiGUqDiIh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/enemies&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe" />
@@ -90,6 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1739352463101</updated>
       <workItem from="1739352464110" duration="2534000" />
+      <workItem from="1740561630971" duration="4118000" />
+      <workItem from="1741468745793" duration="2599000" />
+      <workItem from="1741770954993" duration="5632000" />
     </task>
     <servers />
   </component>
