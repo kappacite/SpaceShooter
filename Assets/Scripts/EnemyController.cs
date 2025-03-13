@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
 
     float startSpawnTime = 5f;
     float minSpawnTime = 0.5f;
-    float reductionFactor = 0.2f;
+    float reductionFactor = 1.5f;
 
     public void InstantiateEnemy(EnemyData enemyData)
     {
@@ -64,31 +64,44 @@ public class EnemyController : MonoBehaviour
         
         EnemyDestroyed(enemy);
     }
+
+    void Start()
+    {
+        StartCoroutine(SpawnEnemies());
+    }
     
     void Update()
     {
-        StartCoroutine(StartWave());
+        UpdateWave();
     }
 
-    private IEnumerator StartWave()
+    private void UpdateWave()
     {
-
-        if (enemiesKilled == 30 + currentWave * 15){
-            yield break;
+        if (enemiesKilled != 30 + currentWave * 15){
+            return;
         }
         
         if (timeSinceLastWave >= timeBetweenWave){
             timeSinceLastWave = 0;
-
-            while (enemiesKilled != 30 + currentWave * 15){
-                float spawnTime = Mathf.Max(minSpawnTime, startSpawnTime - reductionFactor * Mathf.Log(currentEnemies + 1));
-                currentEnemies++;
-                yield return new WaitForSeconds(spawnTime / (float) (currentEnemies*0.8));
-                InstantiateEnemy(enemies[currentWave].data[Random.Range(0, enemies[currentWave].data.Count)]);
-            }
+            enemiesKilled = 0;
             currentWave++;
         } else{
             timeSinceLastWave += Time.deltaTime;
+        }
+    }
+
+    private IEnumerator SpawnEnemies()
+    {
+        while (true){
+
+            if (enemiesKilled == 30 + currentWave * 15){
+                continue;
+            }
+            
+            float spawnTime = Mathf.Max(minSpawnTime, startSpawnTime - reductionFactor * Mathf.Log(currentEnemies + 1));
+            currentEnemies++;
+            yield return new WaitForSeconds(spawnTime);
+            InstantiateEnemy(enemies[currentWave].data[Random.Range(0, enemies[currentWave].data.Count)]);
         }
     }
     
