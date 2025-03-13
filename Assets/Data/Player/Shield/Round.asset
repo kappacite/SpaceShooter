@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Round
   m_EditorClassIdentifier: 
   price: 0
-  name: 
+  name: Round
   sprite: {fileID: 442829638, guid: 4fab2913740cc584c820e0b249e585d2, type: 3}
   animatorController: {fileID: 9100000, guid: ec3996493f10a584481dcc3a097f7b3b, type: 2}
   waitingTime: 0

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Front
   m_EditorClassIdentifier: 
   price: 0
-  name: 
+  name: Front
   sprite: {fileID: 1873316037, guid: 26825204e636f6f4da7d442eaeda6c89, type: 3}
   animatorController: {fileID: 9100000, guid: 0b23c13a484f68c4f92ac47ec3381547, type: 2}
   waitingTime: 0
   offsetX: 0
-  offsetY: 0.2
+  offsetY: 0
