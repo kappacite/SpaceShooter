@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEditor.Animations;
 using UnityEngine;
 
 [System.Serializable]
@@ -15,6 +17,7 @@ public class EnemyController : MonoBehaviour
     public int currentEnemies;
     int enemiesKilled = 0;
     float enemySpeed = 2f;
+
     int currentWave = 0;
     float timeSinceLastWave = 0f;
     float timeBetweenWave = 5f;
@@ -52,6 +55,7 @@ public class EnemyController : MonoBehaviour
 
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
         enemy.GetComponent<SpriteRenderer>().sprite = enemyData.sprite;
+        enemy.GetComponent<Animator>().runtimeAnimatorController = enemyData.controller;
         Rigidbody2D rb = enemy.GetComponent<Rigidbody2D>();
         if (rb == null)
         {
@@ -61,52 +65,46 @@ public class EnemyController : MonoBehaviour
         }
         rb.velocity = direction * enemySpeed;
         currentEnemies++;
-        
-        EnemyDestroyed(enemy);
+        StartCoroutine(Despawn(enemy));
+       
     }
 
     void Start()
     {
         StartCoroutine(SpawnEnemies());
     }
-    
-    void Update()
-    {
-        UpdateWave();
-    }
-
-    private void UpdateWave()
-    {
-        if (enemiesKilled != 30 + currentWave * 15){
-            return;
-        }
-        
-        if (timeSinceLastWave >= timeBetweenWave){
-            timeSinceLastWave = 0;
-            enemiesKilled = 0;
-            currentWave++;
-        } else{
-            timeSinceLastWave += Time.deltaTime;
-        }
-    }
-
     private IEnumerator SpawnEnemies()
     {
         while (true){
 
-            if (enemiesKilled == 30 + currentWave * 15){
-                continue;
+            if (enemiesKilled >= 10 + currentWave * 15){
+                timeSinceLastWave = 0;
+                enemiesKilled = 0;
+                currentWave++;
+            } else {
+                float spawnTime = Mathf.Max(minSpawnTime, startSpawnTime - reductionFactor * Mathf.Log(currentEnemies + 1));
+                currentEnemies++;
+                yield return new WaitForSeconds(spawnTime);
+                InstantiateEnemy(enemies[currentWave].data[Random.Range(0, enemies[currentWave].data.Count)]);
             }
-            
-            float spawnTime = Mathf.Max(minSpawnTime, startSpawnTime - reductionFactor * Mathf.Log(currentEnemies + 1));
-            currentEnemies++;
-            yield return new WaitForSeconds(spawnTime);
-            InstantiateEnemy(enemies[currentWave].data[Random.Range(0, enemies[currentWave].data.Count)]);
         }
     }
     
-    public void EnemyDestroyed(GameObject enemy)
+    public void EnemyDestroyed()
     {
-        currentEnemies--;
+        if(currentEnemies > 0) currentEnemies--;
+        enemiesKilled++;
+        GameObject.Find("RemainingEnemies").GetComponent<TMP_Text>().text = "Enemies restant : " + ((30 + currentWave * 15) - enemiesKilled);
+    }
+
+    private IEnumerator Despawn(GameObject enemy)
+    {
+
+        if (enemy == null) yield break;
+
+        yield return new WaitForSeconds(15);
+        Debug.Log("destroy");
+        Destroy(enemy);
+        if (currentEnemies > 0) currentEnemies--;
     }
 }

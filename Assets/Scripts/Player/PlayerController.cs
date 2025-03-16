@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private float _shield = 0;
     private float _maxShield = 5;
     private float _gold;
+    private int score;
 
     private SpriteRenderer _renderer;
 
@@ -85,7 +86,10 @@ public class PlayerController : MonoBehaviour
         _health += health;
     }
 
-    public void RemoveHealth(float health) { _health -= health; }
+    public void RemoveHealth(float health) {
+        _health -= health;
+        gameObject.GetComponent<PlayerMovement>().currentAcceleration /= 2;
+    }
 
     public void AddShield(float shield) {
         _shield += shield;
