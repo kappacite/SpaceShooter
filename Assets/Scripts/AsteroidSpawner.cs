@@ -15,6 +15,17 @@ public class AsteroidSpawner : MonoBehaviour
     public int maxAsteroids = 10;
     public int currentAsteroids;
     private float asteroidSpeed = 2f;
+
+    private static AsteroidSpawner instance;
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         timeTillAsteroid = Random.Range(minTime, maxTime);
@@ -83,5 +94,8 @@ public class AsteroidSpawner : MonoBehaviour
         currentAsteroids--;
     }
 
+    public static AsteroidSpawner getInstance() {
+        return instance;
+    }
     
 }
