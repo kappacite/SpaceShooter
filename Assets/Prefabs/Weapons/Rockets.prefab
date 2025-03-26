@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8252078684644828195}
   - component: {fileID: 7809204824977377025}
   - component: {fileID: 2606416221787878853}
-  - component: {fileID: 7570078613742333727}
-  m_Layer: 0
-  m_Name: Cannon
-  m_TagString: Untagged
+  - component: {fileID: 7299421867637586578}
+  m_Layer: 7
+  m_Name: Rockets
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ Animator:
   m_GameObject: {fileID: 4056923599516728392}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f5e9564a700e22a47bc0cccaef673467, type: 2}
+  m_Controller: {fileID: 9100000, guid: c14ddafd1b1a0a848a49322864ec52f1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1321300998, guid: 71aad6e576849ce4cb63e3556f8920f6, type: 3}
+  m_Sprite: {fileID: 483839156, guid: 259572e67ec968140a157423e32f2fed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -124,7 +124,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 72
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -145,14 +145,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.1, y: 0.17}
+    oldSize: {x: 0.05, y: 0.15}
     newSize: {x: 0.06, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.17}
+  m_Size: {x: 0.05, y: 0.15}
   m_EdgeRadius: 0
 --- !u!50 &2606416221787878853
 Rigidbody2D:
@@ -176,12 +176,12 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 72
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!82 &7570078613742333727
+--- !u!82 &7299421867637586578
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

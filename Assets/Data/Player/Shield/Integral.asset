@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Integral
   m_EditorClassIdentifier: 
   price: 0
-  name: 
+  name: Invincibility
   sprite: {fileID: -285308532, guid: c3a3a44c661d76a40a21833c40da0518, type: 3}
   animatorController: {fileID: 9100000, guid: d30a6bb442c9b4f439bd6a9e09a3374c, type: 2}
   waitingTime: 0

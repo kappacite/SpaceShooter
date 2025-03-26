@@ -8,6 +8,10 @@ TagManager:
   - Engine
   - Shield
   - Asteroid
+  - Enemy
+  - Ennemy
+  - Projectile
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -15,8 +19,8 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
-  - 
+  - Shield
+  - Projectile
   - 
   - 
   - 

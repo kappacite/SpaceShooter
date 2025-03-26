@@ -5,11 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    private float _health;
+    public float _health;
     private float _maxHealth = 100;
     private float _shield = 0;
     private float _maxShield = 5;
     private float _gold;
+    private int score;
 
     private SpriteRenderer _renderer;
 
@@ -20,11 +21,25 @@ public class PlayerController : MonoBehaviour
     public ModuleData engineData;
     public WeaponData weaponData;
     public ModuleData shieldData;
-    // Start is called before the first frame update
+    
+
+    private static PlayerController instance;
 
     public List<Sprite> sprites;
+
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
+
+        
 
         this._health = this._maxHealth;
 
@@ -53,13 +68,57 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         UpdatePlayer();
+        if (_health <= 0) {
+            Debug.Log("test");
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
     }
+
+    public void LoadShield(ModuleData data) {
+        this.shieldData = data;
+        shield.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
+        shield.GetComponent<SpriteRenderer>().sprite = data.sprite;
+        shield.transform.localPosition = new Vector3(data.offsetX, data.offsetY, 0);
+        Debug.Log("X : " + data.offsetX + " Y : " + data.offsetY);
+        Debug.Log(shield.transform.position);
+        GetComponent<SpriteRenderer>().sprite = shieldData.sprite;
+        Destroy(shield.GetComponent<PolygonCollider2D>());
+        shield.AddComponent<PolygonCollider2D>();
+    }
+
+    public void LoadWeapon(WeaponData data) {
+        this.weaponData = data;
+        weapon.GetComponent<Animator>().runtimeAnimatorController = data.moduleData.animatorController;
+        weapon.GetComponent<SpriteRenderer>().sprite = data.moduleData.sprite;
+        weapon.transform.position += new Vector3(data.moduleData.offsetX, 0, 0);
+        weapon.transform.position += new Vector3(0, data.moduleData.offsetY, 0);
+    }
+
+    public void LoadEngine(ModuleData data) {
+        this.engineData = data;
+        engine.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
+        engine.GetComponent<SpriteRenderer>().sprite = data.sprite;
+        engine.transform.position += new Vector3(data.offsetX, 0, 0);
+        engine.transform.position += new Vector3(0, data.offsetY, 0);
+    }
+
 
     public void AddHealth(float health) {
         _health += health;
     }
 
-    public void RemoveHealth(float health) { _health -= health; }
+    public void RemoveHealth(float health) {
+        _health -= health;
+        gameObject.GetComponent<PlayerMovement>().currentAcceleration /= 2;
+
+
+    }
+
+    public void AddShield(float shield) {
+        _shield += shield;
+    }
+
+    public void RemoveShield(float shield) { _shield -= shield; }
 
     private void UpdatePlayer() {
 
@@ -82,6 +141,10 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+
+    public static PlayerController getInstance() {
+        return instance;
     }
 
 }

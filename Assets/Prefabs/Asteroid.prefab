@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3505714356532597611}
   - component: {fileID: 984558477144872930}
   - component: {fileID: 6880335529831262154}
+  - component: {fileID: -7134034224630636265}
+  - component: {fileID: 986665061913826397}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Asteroid
@@ -200,3 +202,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-7134034224630636265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947374404299725630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17de271db44dd274e8f55102e2092454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &986665061913826397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947374404299725630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a4f5dbf663d54a91ff5545320c4e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bonuses:
+  - {fileID: 1499771654454212413, guid: 6c2f8ff4e3998b54cb4c258ce3cdb09f, type: 3}
+  - {fileID: 1499771654454212413, guid: c23299e17e757cc47bbcda132042f8a3, type: 3}
+  - {fileID: 1499771654454212413, guid: 453f0246a242f3042b18f2d512e20193, type: 3}
+  - {fileID: 1499771654454212413, guid: 1c553c706cfd2b74c8a1deac317597c1, type: 3}
+  - {fileID: 1499771654454212413, guid: 0252b5a1e0d1180439f76d02d97b6b33, type: 3}
