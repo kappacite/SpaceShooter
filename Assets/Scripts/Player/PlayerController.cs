@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -149,6 +150,15 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController getInstance() {
         return instance;
+    }
+
+    public void AddScore(int score) {
+        this.score += score;
+        GameObject.Find("Score").GetComponent<TMP_Text>().text = "Score: " + score.ToString();
+    }
+
+    public int getScore() {
+        return score;
     }
 
 }

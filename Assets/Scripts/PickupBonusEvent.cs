@@ -6,8 +6,10 @@ public class PickupBonusEvent : MonoBehaviour
 {
 
     public bool isShield;
+    public bool isWeapon;
     public bool isLife;
     public ModuleData shieldData;
+    public WeaponData weaponData;
     public float value;
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -18,6 +20,12 @@ public class PickupBonusEvent : MonoBehaviour
 
             if (isLife) {
                 controller.AddHealth(25);
+                Destroy(this.gameObject);
+                return;
+            }
+
+            if (isWeapon) {
+                controller.LoadWeapon(weaponData);
                 Destroy(this.gameObject);
                 return;
             }

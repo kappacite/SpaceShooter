@@ -15,3 +15,4 @@ MonoBehaviour:
   controller: {fileID: 9100000, guid: 3d5e3bee158fc764bad76aab7f9b1ff9, type: 2}
   life: 0
   sprite: {fileID: 24304109, guid: 266f5a84ada8e9543bcfd51a44722033, type: 3}
+  score: 400

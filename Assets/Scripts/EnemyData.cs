@@ -8,4 +8,5 @@ public class EnemyData : ScriptableObject
     public RuntimeAnimatorController controller;
     public float life;
     public Sprite sprite;
+    public int score;
 }

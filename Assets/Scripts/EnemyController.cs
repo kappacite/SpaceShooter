@@ -67,6 +67,7 @@ public class EnemyController : MonoBehaviour
         GameObject enemy = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
         enemy.GetComponent<SpriteRenderer>().sprite = enemyData.sprite;
         enemy.GetComponent<Animator>().runtimeAnimatorController = enemyData.controller;
+        enemy.GetComponent<Enemy>().enemyData = enemyData;
         Rigidbody2D rb = enemy.GetComponent<Rigidbody2D>();
         if (rb == null)
         {
