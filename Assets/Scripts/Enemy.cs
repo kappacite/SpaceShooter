@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     private Transform player;
     private Animator animator;
     bool collided = false;
+    public EnemyData enemyData;
 
     void Start()
     {
@@ -64,6 +65,7 @@ public class Enemy : MonoBehaviour
         AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
         yield return new WaitForSeconds(clipInfo[0].clip.length - 0.15f);
         Destroy(gameObject);
+        PlayerController.getInstance().AddScore(enemyData.score);
         GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyController>().EnemyDestroyed();
     }
 
