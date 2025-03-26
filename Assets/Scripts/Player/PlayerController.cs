@@ -147,4 +147,14 @@ public class PlayerController : MonoBehaviour
         return instance;
     }
 
+    public int getScore()
+    {
+        return score;
+    }
+
+    public void AddScore(int score)
+    {
+        this.score += score;
+    }
+
 }
