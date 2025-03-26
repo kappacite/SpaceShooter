@@ -63,6 +63,9 @@ public class PlayerController : MonoBehaviour
         shield.transform.localPosition = new Vector3(data.offsetX, data.offsetY, 0);
         Debug.Log("X : " + data.offsetX + " Y : " + data.offsetY);
         Debug.Log(shield.transform.position);
+        GetComponent<SpriteRenderer>().sprite = shieldData.sprite;
+        Destroy(shield.GetComponent<PolygonCollider2D>());
+        shield.AddComponent<PolygonCollider2D>();
     }
 
     public void LoadWeapon(WeaponData data) {

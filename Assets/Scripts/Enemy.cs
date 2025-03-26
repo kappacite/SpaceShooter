@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float speed = 2f;
     private Transform player;
     private Animator animator;
+    bool collided = false;
 
     void Start()
     {
@@ -26,14 +27,22 @@ public class Enemy : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
+
+        if (collided) return;
+        
         if(collision.gameObject.tag == "Projectile")
         {
             Destroy(collision.gameObject);
             TakeDamage(100);
         }
-
-        if (collision.gameObject.tag == "Player")
-        {
+        
+        if (collision.gameObject.tag == "Shield"){
+            collided = true;
+            StartCoroutine(reset());
+            TakeDamage(life);
+            collision.gameObject.GetComponentInParent<PlayerController>().RemoveShield(35);
+            return;
+        } else if (collision.gameObject.tag == "Player") {
             collision.gameObject.GetComponent<PlayerController>().RemoveHealth(35);
             TakeDamage(life);
         }
@@ -56,5 +65,11 @@ public class Enemy : MonoBehaviour
         yield return new WaitForSeconds(clipInfo[0].clip.length - 0.15f);
         Destroy(gameObject);
         GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyController>().EnemyDestroyed();
+    }
+
+    IEnumerator reset()
+    {
+        yield return new WaitForSeconds(1f);
+        collided = false;
     }
 }

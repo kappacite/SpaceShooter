@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Asteroid : MonoBehaviour
@@ -24,15 +25,20 @@ public class Asteroid : MonoBehaviour
         isDestroyed = true;
 
         GetComponent<Animator>().SetTrigger("explode");
-
+        
+        if (collision.gameObject.tag == "Shield"){
+            Debug.Log("shield");
+            Destroy(this.gameObject, 0.35f);
+            collision.gameObject.GetComponentInParent<PlayerController>().RemoveShield(35);
+            return;
+        }else if(collision.gameObject.tag == "Player") {
+            collision.gameObject.GetComponent<PlayerController>().RemoveHealth(26);
+        }
+        
         if(collision.gameObject.tag == "Projectile") {
             Destroy(collision.gameObject);
             GetComponent<PickupBonusDrop>().Drop(this.transform);
-        }
-
-        if(collision.gameObject.tag == "Player") {
-            collision.gameObject.GetComponent<PlayerController>().RemoveHealth(26);
-        }
+        } 
 
         Destroy(this.gameObject, 0.35f);
     }
