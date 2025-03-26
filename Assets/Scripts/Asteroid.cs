@@ -1,23 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Asteroid : MonoBehaviour
 {
     private bool isDestroyed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D collision) {
 
         if (isDestroyed) return;
@@ -43,5 +33,7 @@ public class Asteroid : MonoBehaviour
         PlayerController.getInstance().AddScore(100);
 
         Destroy(this.gameObject, 0.35f);
+        PlayerController.getInstance().AddScore(100);
+        GameObject.Find("Score").GetComponent<TMP_Text>().text = "Score: " + PlayerController.getInstance().getScore();
     }
 }

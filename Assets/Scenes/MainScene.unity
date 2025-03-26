@@ -421,7 +421,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - data: []
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+    - {fileID: 11400000, guid: 165b3f40de79ee241b641c88750e7eed, type: 2}
+    - {fileID: 11400000, guid: cfe171f36d075414da648a413ba81d64, type: 2}
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+    - {fileID: 11400000, guid: 165b3f40de79ee241b641c88750e7eed, type: 2}
+    - {fileID: 11400000, guid: cfe171f36d075414da648a413ba81d64, type: 2}
+    - {fileID: 11400000, guid: 97efce73525a99f46806cecf82895494, type: 2}
+    - {fileID: 11400000, guid: 1c73a886498ea95499c10e4386cc6c34, type: 2}
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+    - {fileID: 11400000, guid: 165b3f40de79ee241b641c88750e7eed, type: 2}
+    - {fileID: 11400000, guid: cfe171f36d075414da648a413ba81d64, type: 2}
+    - {fileID: 11400000, guid: 97efce73525a99f46806cecf82895494, type: 2}
+    - {fileID: 11400000, guid: 1c73a886498ea95499c10e4386cc6c34, type: 2}
+    - {fileID: 11400000, guid: e25691a03c3d3e446bf6aee04e1631f3, type: 2}
+  - data:
+    - {fileID: 11400000, guid: 4ab3c48b4b50cd4438112be813857376, type: 2}
+    - {fileID: 11400000, guid: e304707391a259845b920d1edd89fd25, type: 2}
+    - {fileID: 11400000, guid: 165b3f40de79ee241b641c88750e7eed, type: 2}
+    - {fileID: 11400000, guid: cfe171f36d075414da648a413ba81d64, type: 2}
+    - {fileID: 11400000, guid: 97efce73525a99f46806cecf82895494, type: 2}
+    - {fileID: 11400000, guid: 1c73a886498ea95499c10e4386cc6c34, type: 2}
+    - {fileID: 11400000, guid: e25691a03c3d3e446bf6aee04e1631f3, type: 2}
+    - {fileID: 11400000, guid: d31a2763e7b33f546b26ddcc8bb8d5a5, type: 2}
   enemyPrefab: {fileID: 0}
   currentEnemies: 0
 --- !u!114 &89691055
@@ -817,7 +848,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -846,7 +877,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -41.646057, y: 0, z: -47.481964, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

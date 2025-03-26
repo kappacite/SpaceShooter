@@ -159,6 +159,6 @@ public class PlayerController : MonoBehaviour
 
     public int getScore() {
         return score;
-    }
+
 
 }
