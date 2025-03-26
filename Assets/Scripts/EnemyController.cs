@@ -26,6 +26,17 @@ public class EnemyController : MonoBehaviour
     float minSpawnTime = 0.5f;
     float reductionFactor = 1.5f;
 
+    private static EnemyController instance;
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else {
+            Destroy(gameObject);
+        }
+    }
+
     public void InstantiateEnemy(EnemyData enemyData)
     {
 
@@ -106,5 +117,9 @@ public class EnemyController : MonoBehaviour
         Debug.Log("destroy");
         Destroy(enemy);
         if (currentEnemies > 0) currentEnemies--;
+    }
+
+    public static EnemyController getInstance() {
+        return instance;
     }
 }

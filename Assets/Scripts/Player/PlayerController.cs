@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    private float _health;
+    public float _health;
     private float _maxHealth = 100;
     private float _shield = 0;
     private float _maxShield = 5;
@@ -21,11 +21,25 @@ public class PlayerController : MonoBehaviour
     public ModuleData engineData;
     public WeaponData weaponData;
     public ModuleData shieldData;
-    // Start is called before the first frame update
+    
+
+    private static PlayerController instance;
 
     public List<Sprite> sprites;
+
+    private void Awake() {
+        if (instance == null) {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
+
+        
 
         this._health = this._maxHealth;
 
@@ -54,6 +68,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         UpdatePlayer();
+        if (_health <= 0) {
+            Debug.Log("test");
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
     }
 
     public void LoadShield(ModuleData data) {
@@ -92,6 +110,8 @@ public class PlayerController : MonoBehaviour
     public void RemoveHealth(float health) {
         _health -= health;
         gameObject.GetComponent<PlayerMovement>().currentAcceleration /= 2;
+
+
     }
 
     public void AddShield(float shield) {
@@ -121,6 +141,10 @@ public class PlayerController : MonoBehaviour
         }
 
 
+    }
+
+    public static PlayerController getInstance() {
+        return instance;
     }
 
 }
