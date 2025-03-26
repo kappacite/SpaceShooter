@@ -24,3 +24,4 @@ MonoBehaviour:
   - Rockets5
   - Rockets6
   timeBetweenShoot: 0.16
+  sound: {fileID: 8300000, guid: 9a48ce96dc6feb34eb90ffda5f268381, type: 3}

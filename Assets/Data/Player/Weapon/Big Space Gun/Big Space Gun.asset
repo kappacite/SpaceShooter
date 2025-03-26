@@ -19,3 +19,4 @@ MonoBehaviour:
   cannons:
   - BigGun
   timeBetweenShoot: 0
+  sound: {fileID: 8300000, guid: ac99dce53d999434fb767c423105354c, type: 3}

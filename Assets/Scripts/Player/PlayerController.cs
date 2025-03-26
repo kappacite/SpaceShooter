@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 
     public float _health;
     private float _maxHealth = 100;
-    private float _shield = 0;
-    private float _maxShield = 5;
+    public float _shield = 0;
+    private float _maxShield = 100;
     private float _gold;
     private int score;
 
@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
         shield.transform.position += new Vector3(0,shieldData.offsetY,0);
 
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -79,11 +79,11 @@ public class PlayerController : MonoBehaviour
         shield.GetComponentInChildren<Animator>().runtimeAnimatorController = data.animatorController;
         shield.GetComponent<SpriteRenderer>().sprite = data.sprite;
         shield.transform.localPosition = new Vector3(data.offsetX, data.offsetY, 0);
-        Debug.Log("X : " + data.offsetX + " Y : " + data.offsetY);
-        Debug.Log(shield.transform.position);
         GetComponent<SpriteRenderer>().sprite = shieldData.sprite;
         Destroy(shield.GetComponent<PolygonCollider2D>());
         shield.AddComponent<PolygonCollider2D>();
+        this._maxShield = 100;
+        this._shield = 100;
     }
 
     public void LoadWeapon(WeaponData data) {
@@ -138,6 +138,10 @@ public class PlayerController : MonoBehaviour
         if(_shield > 0) {
             shield.GetComponent<Animator>().runtimeAnimatorController = shieldData.animatorController;
             shield.GetComponent<SpriteRenderer>().sprite = shieldData.sprite;
+        } else {
+            shield.GetComponent<SpriteRenderer>().sprite = null;
+            shield.GetComponent<Animator>().runtimeAnimatorController = null;
+            shield.GetComponent<PolygonCollider2D>().enabled = false;
         }
 
 

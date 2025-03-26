@@ -40,10 +40,10 @@ public class Enemy : MonoBehaviour
             collided = true;
             StartCoroutine(reset());
             TakeDamage(life);
-            collision.gameObject.GetComponentInParent<PlayerController>().RemoveShield(35);
+            PlayerController.getInstance().RemoveShield(35);
             return;
         } else if (collision.gameObject.tag == "Player") {
-            collision.gameObject.GetComponent<PlayerController>().RemoveHealth(35);
+            PlayerController.getInstance().RemoveHealth(35);
             TakeDamage(life);
         }
     }

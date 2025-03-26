@@ -19,10 +19,10 @@ public class Asteroid : MonoBehaviour
         if (collision.gameObject.tag == "Shield"){
             Debug.Log("shield");
             Destroy(this.gameObject, 0.35f);
-            collision.gameObject.GetComponentInParent<PlayerController>().RemoveShield(35);
+            PlayerController.getInstance().RemoveShield(35);
             return;
         }else if(collision.gameObject.tag == "Player") {
-            collision.gameObject.GetComponent<PlayerController>().RemoveHealth(26);
+            PlayerController.getInstance().RemoveHealth(26);
         }
         
         if(collision.gameObject.tag == "Projectile") {
