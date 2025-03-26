@@ -28,12 +28,8 @@ public class Asteroid : MonoBehaviour
         if(collision.gameObject.tag == "Projectile") {
             Destroy(collision.gameObject);
             GetComponent<PickupBonusDrop>().Drop(this.transform);
-        }
-
-        PlayerController.getInstance().AddScore(100);
-
+        }   
         Destroy(this.gameObject, 0.35f);
         PlayerController.getInstance().AddScore(100);
-        GameObject.Find("Score").GetComponent<TMP_Text>().text = "Score: " + PlayerController.getInstance().getScore();
     }
 }

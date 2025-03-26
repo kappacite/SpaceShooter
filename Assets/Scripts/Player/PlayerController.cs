@@ -154,11 +154,11 @@ public class PlayerController : MonoBehaviour
 
     public void AddScore(int score) {
         this.score += score;
-        GameObject.Find("Score").GetComponent<TMP_Text>().text = "Score: " + score.ToString();
+        GameObject.Find("Score").GetComponent<TMP_Text>().text = "Score: " + this.score.ToString();
     }
 
     public int getScore() {
         return score;
-
+    }
 
 }
