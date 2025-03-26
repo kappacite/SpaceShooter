@@ -72,6 +72,8 @@ public class PlayerController : MonoBehaviour
         if (_health <= 0) {
             Debug.Log("test");
             UnityEditor.EditorApplication.isPlaying = false;
+            //SceneManager.LoadScene("GameOverScene");
+
         }
     }
 
