@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 89691054}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1c73a886498ea95499c10e4386cc6c34, type: 2}
     - {fileID: 11400000, guid: e25691a03c3d3e446bf6aee04e1631f3, type: 2}
     - {fileID: 11400000, guid: d31a2763e7b33f546b26ddcc8bb8d5a5, type: 2}
-  enemyPrefab: {fileID: 0}
+  enemyPrefab: {fileID: 51048575833429514, guid: e025bddd931025d42ad5b27ebe8437ea, type: 3}
   currentEnemies: 0
 --- !u!114 &89691055
 MonoBehaviour:

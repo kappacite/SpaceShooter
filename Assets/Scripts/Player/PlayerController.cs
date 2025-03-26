@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,7 +23,8 @@ public class PlayerController : MonoBehaviour
     public ModuleData engineData;
     public WeaponData weaponData;
     public ModuleData shieldData;
-    
+
+    private bool isPlaying = true;
 
     private static PlayerController instance;
 
@@ -71,8 +73,13 @@ public class PlayerController : MonoBehaviour
         UpdatePlayer();
         if (_health <= 0) {
             Debug.Log("test");
-            UnityEditor.EditorApplication.isPlaying = false;
-            //SceneManager.LoadScene("GameOverScene");
+            //UnityEditor.EditorApplication.isPlaying = false;
+
+            if (isPlaying) {
+                isPlaying = false;
+                StartCoroutine(GameOver());
+                
+            }
 
         }
     }
@@ -161,6 +168,14 @@ public class PlayerController : MonoBehaviour
 
     public int getScore() {
         return score;
+    }
+
+    IEnumerator GameOver() {
+        SceneManager.LoadScene("GameOverScene");
+        yield return new WaitForSeconds(0.3f);
+        GameObject.Find("ScoreText").GetComponent<TMP_Text>().text = "Votre score : " + PlayerController.getInstance().getScore() + " points";
+        Destroy(gameObject);
+        Destroy(GameObject.Find("GameController"));
     }
 
 }
