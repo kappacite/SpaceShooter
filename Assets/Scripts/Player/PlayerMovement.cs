@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     private Vector3 _mousePosition;
+    
+    public LayerMask wallLayer;
    
     void Awake() {
         rb = GetComponent<Rigidbody2D>();
@@ -48,12 +50,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * horizontalMovement, Mathf.Infinity, wallLayer );
+        if (hit.collider == null || hit.distance > transform.localScale.x / 2){
+            UpdateAcceleration();
+            rb.velocity = new Vector2(horizontalMovement, verticalMovement).normalized * speed * currentAcceleration;
+        }
         if (Input.mousePosition != _mousePosition)
         {
             FaceMouse();
         }
-        UpdateAcceleration();
-        rb.velocity = new Vector2(horizontalMovement, verticalMovement).normalized * speed * currentAcceleration;
+        
         
     }
 
