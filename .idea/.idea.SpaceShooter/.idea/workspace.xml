@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ebfd0ca-04ea-4c55-81f4-50cfc5e19bc0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceShooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceShooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
       <workItem from="1741900483173" duration="443000" />
       <workItem from="1742378233875" duration="2554000" />
       <workItem from="1742980335546" duration="1289000" />
+      <workItem from="1742985403800" duration="907000" />
     </task>
     <servers />
   </component>
