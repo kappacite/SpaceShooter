@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kla'ed Battlecruiser
   m_EditorClassIdentifier: 
   controller: {fileID: 9100000, guid: 791501f61b5b0e646ab4b704a763ebef, type: 2}
-  life: 0
+  life: 80
   sprite: {fileID: -2061606354, guid: 02c2f8c7e626ae44894909e5a78dc8da, type: 3}
   score: 1500

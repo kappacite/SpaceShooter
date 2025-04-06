@@ -88,7 +88,7 @@ public class EnemyController : MonoBehaviour
     {
         while (true){
 
-            if (enemiesKilled >= 10 + currentWave * 15){
+            if (enemiesKilled >= 30 + currentWave * 15){
                 timeSinceLastWave = 0;
                 enemiesKilled = 0;
                 currentWave++;

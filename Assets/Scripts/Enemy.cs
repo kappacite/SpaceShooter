@@ -30,11 +30,17 @@ public class Enemy : MonoBehaviour
     {
 
         if (collided) return;
-        
-        if(collision.gameObject.tag == "Projectile")
+
+        if (!GetComponent<Renderer>().isVisible) return;
+
+        if (collision.gameObject.tag == "Projectile")
         {
             Destroy(collision.gameObject);
-            TakeDamage(100);
+            TakeDamage(PlayerController.getInstance().weaponData.baseDamage);
+            if(life <= 0) {
+                AddScore();
+            }
+            return;
         }
         
         if (collision.gameObject.tag == "Shield"){
@@ -65,8 +71,11 @@ public class Enemy : MonoBehaviour
         AnimatorClipInfo[] clipInfo = animator.GetCurrentAnimatorClipInfo(0);
         yield return new WaitForSeconds(clipInfo[0].clip.length - 0.15f);
         Destroy(gameObject);
-        PlayerController.getInstance().AddScore(enemyData.score);
         GameObject.FindGameObjectWithTag("GameController").GetComponent<EnemyController>().EnemyDestroyed();
+    }
+
+    private void AddScore() {
+        PlayerController.getInstance().AddScore(enemyData.score);
     }
 
     IEnumerator reset()

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kla'ed Support Ship
   m_EditorClassIdentifier: 
   controller: {fileID: 9100000, guid: 86958cd52b625f14b8f3075dd9ea94eb, type: 2}
-  life: 0
+  life: 55
   sprite: {fileID: 763378308, guid: ce03c57e2998c67428d9b00d383e1a8c, type: 3}
   score: 500

@@ -16,6 +16,6 @@ MonoBehaviour:
   name: 
   sprite: {fileID: -1875650710, guid: 0ae1f5aaca4a1514c9031f4f47e5fe2c, type: 3}
   animatorController: {fileID: 9100000, guid: 84fcc49b165da4e41bd1c78a5438b026, type: 2}
-  waitingTime: 0
+  waitingTime: 0.3
   offsetX: 0
   offsetY: 0

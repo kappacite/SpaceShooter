@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   munitionPrefabs: {fileID: 4056923599516728392, guid: 2bc3aeabff54e8547aab93eae045e4d9, type: 3}
   moduleData: {fileID: 11400000, guid: 83a1f5d8c65d89448aba1587828c3949, type: 2}
-  baseDamage: 10
+  baseDamage: 20
   ammoSpeed: 4
   cannons:
   - Zapper1
   - Zapper2
   timeBetweenShoot: 0
   sound: {fileID: 8300000, guid: c73a109d2cdb34a45a1e79cf6e4e1d7c, type: 3}
+  score: 0

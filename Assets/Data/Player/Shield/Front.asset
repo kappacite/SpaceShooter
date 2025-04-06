@@ -18,4 +18,4 @@ MonoBehaviour:
   animatorController: {fileID: 9100000, guid: 0b23c13a484f68c4f92ac47ec3381547, type: 2}
   waitingTime: 0
   offsetX: 0
-  offsetY: 0
+  offsetY: 0.05

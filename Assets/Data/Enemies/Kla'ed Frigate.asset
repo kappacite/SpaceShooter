@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kla'ed Frigate
   m_EditorClassIdentifier: 
   controller: {fileID: 9100000, guid: a0a13058ab2e29345a5df1699988ef09, type: 2}
-  life: 0
+  life: 60
   sprite: {fileID: 1580646623, guid: e0680c83602e8a84d9f68191e114dc14, type: 3}
   score: 750
