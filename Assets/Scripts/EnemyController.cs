@@ -67,6 +67,7 @@ public class EnemyController : MonoBehaviour
         enemy.GetComponent<SpriteRenderer>().sprite = enemyData.sprite;
         enemy.GetComponent<Animator>().runtimeAnimatorController = enemyData.controller;
         enemy.GetComponent<Enemy>().enemyData = enemyData;
+        enemy.GetComponent<Enemy>().life = enemyData.life;
         Rigidbody2D rb = enemy.GetComponent<Rigidbody2D>();
         if (rb == null)
         {
@@ -96,7 +97,7 @@ public class EnemyController : MonoBehaviour
                 float spawnTime = Mathf.Max(minSpawnTime, startSpawnTime - reductionFactor * Mathf.Log(currentEnemies + 1));
                 currentEnemies++;
                 yield return new WaitForSeconds(spawnTime);
-                InstantiateEnemy(enemies[currentWave].data[Random.Range(0, enemies[currentWave].data.Count)]);
+                InstantiateEnemy(enemies[currentWave % enemies.Count].data[Random.Range(0, enemies[currentWave % enemies.Count].data.Count)]);
             }
         }
     }

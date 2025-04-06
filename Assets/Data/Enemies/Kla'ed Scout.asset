@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kla'ed Scout
   m_EditorClassIdentifier: 
   controller: {fileID: 9100000, guid: ee9affb80366d9d4b859ded14894a49c, type: 2}
-  life: 0
+  life: 30
   sprite: {fileID: -1364390212, guid: 7af5b95d5dacf24408bf43ce6b2ee23a, type: 3}
   score: 200

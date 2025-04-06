@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Kla'ed Dreadnought
   m_EditorClassIdentifier: 
   controller: {fileID: 9100000, guid: aec2937dc9760d742b36f430b7d8016a, type: 2}
-  life: 0
+  life: 300
   sprite: {fileID: -487606702, guid: 9bd7bc34a05e63f4f8e4c746265d6ace, type: 3}
   score: 5000
